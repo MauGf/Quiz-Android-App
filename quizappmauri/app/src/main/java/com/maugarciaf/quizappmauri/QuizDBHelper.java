@@ -45,6 +45,7 @@ public class QuizDBHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+	//Questions
     private void fillQuestionsTable() {
         Question q1 = new Question("¿Qué lenguaje de programación se usa por defecto para desarrollar aplicaciones para Android?", "Java", "C++", "JavaScript", 1);
         addQuestion(q1);
